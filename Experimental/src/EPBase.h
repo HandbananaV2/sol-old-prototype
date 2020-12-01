@@ -46,7 +46,7 @@ class EPEventStore;
 
 #define GAME_BUILD_DATE __DATE__ " @ " __TIME__
 #define GAME_VERSION  "PROTOTYPE - 0.0.2 " OS_VERSION " / " GAME_BUILD_DATE
-#define GAME_TITLE "Survival Of Luna"
+#define GAME_TITLE "Survival Of Luna(OLD RELEASE)"
 
 namespace ExperimentalProject
 {

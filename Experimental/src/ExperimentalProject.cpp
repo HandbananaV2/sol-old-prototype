@@ -130,7 +130,7 @@ int main(int cnt, char *args[])
         std::cout << "Start path is: " << ExperimentalProject::G_ApplicationRoot << std::endl;
         std::cout << "Startup window placement was overridden:  X = " << winStartX << ", Y = " << winStartY << std::endl;
         //
-        sf::RenderWindow *window = (ExperimentalProject::G_MainWindow = new sf::RenderWindow(sf::VideoMode(1280, 1024, 32), "Survival Of Luna - " GAME_VERSION, sf::Style::Close | sf::Style::Titlebar));
+        sf::RenderWindow *window = (ExperimentalProject::G_MainWindow = new sf::RenderWindow(sf::VideoMode(1280, 1024, 32), "" GAME_VERSION, sf::Style::Close | sf::Style::Titlebar));
         //
         window->setPosition(sf::Vector2i(winStartX, winStartY));
         //
